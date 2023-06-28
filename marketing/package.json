@@ -1,21 +1,21 @@
 {
   "private": true,
-  "name": "gatsby",
+  "name": "marketing",
   "version": "1.0.0",
-  "dependencies": {
-    "gatsby": "^2.18.14",
-    "gatsby-image": "^2.0.15",
-    "gatsby-plugin-manifest": "^2.0.5",
-    "gatsby-plugin-react-helmet": "^3.0.0",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
-  },
-  "devDependencies": {
-    "@now/node": "^1.3.0"
-  },
   "scripts": {
-    "dev": "gatsby develop",
-    "build": "gatsby build"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^5.0.0",
+    "gatsby-plugin-manifest": "^5.11.0",
+    "gatsby-plugin-react-helmet": "^6.11.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   }
 }
